@@ -1,0 +1,7 @@
+.text {
+  padding: 20px;
+  text-align: justify;
+}
+.text p {
+  text-indent: 1.5em;
+}
