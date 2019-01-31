@@ -1,0 +1,23 @@
+{
+  "name": "zechevvyacheslav.github.io",
+  "version": "1.0.0",
+  "description": "Web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc Less/text.less CSS/text.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZechevVyacheslav/ZechevVyacheslav.github.io.git"
+  },
+  "author": "Slava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZechevVyacheslav/ZechevVyacheslav.github.io/issues"
+  },
+  "homepage": "https://github.com/ZechevVyacheslav/ZechevVyacheslav.github.io#readme",
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}
