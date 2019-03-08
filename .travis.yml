@@ -1,9 +1,17 @@
 language: node_js
-node_js:
- - "node"
+node_js: node
 
-install:
-  - "npm install"
+before_deploy:
+  install:
+    - "npm install"
 
-before_script: 
-  - "npm run build"
+  before_script: 
+    - "npm run build"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN 
+  keep-history: true
+  on:
+    branch: master
